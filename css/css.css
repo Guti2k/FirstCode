@@ -114,6 +114,11 @@ main img{
     padding: 11px;
 }
 
+.mapa{
+    width: 561px;
+    height: 356px;
+}
+
 .texto1{
     font-size: 27px;
     font-weight: bold;
@@ -154,7 +159,7 @@ main img{
     header h1, p{
         font-family: "Montserrat", sans-serif;
     }
-    
+
     main img {
         width: 200px;
     }
