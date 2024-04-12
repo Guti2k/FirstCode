@@ -64,6 +64,12 @@
     justify-content: center;
 }
 
+#footer2{
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    text-align: center;
+}
+
 #footer1 a{
     text-decoration: none;
     color: white;
@@ -79,6 +85,10 @@
     display: flex
 }
 
+#barcelona2{
+    color: black;
+}
+
 header{
     padding: 213px;
     text-align: center;
@@ -86,6 +96,8 @@ header{
 
 footer{
     font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 header h1, p{
@@ -117,4 +129,38 @@ main img{
 .col1{
     font-family: "Montserrat", sans-serif;
     width: 440px;
+}
+
+@media (max-width: 600px) { 
+    #contenedorpadre{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #section2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #barcelona2{
+        padding: 10px;
+    }
+
+    header h1, p{
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    main img {
+        width: 200px;
+    }
+
+    .mapa{
+        width: 100%;
+        height: 383px;
+    }
 }
